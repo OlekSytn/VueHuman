@@ -5,7 +5,7 @@
   <div class="layout6-container f-row f-center">
     <div class="layout6-content">
         <div class="layout6-caption f60 f-dark-blue w100 f-ac" style="padding:101px 143px 0px 143px">How do I get HMT?</div>
-        <div class="lists-view f-col ma">
+        <div class="lists-view ma">
             <div class="HMT-link-lists f-row f-center">
                 <div class="HMT-list-item f-col f-center">
                     <img src="../img/Group1.png"/>
@@ -39,12 +39,24 @@
         width: 100%;
     }
     
-    @media only screen and (max-width:1175px){
+    @media (max-width:1175px){
         .layout6-content{
             width: 100%!important;
             height:auto!important;
             border-radius:0px!important;
             overflow: hidden!important;
+        }
+        .HMT-link-lists{
+            width:100%;
+            margin-top:80px;
+            padding:0px !important;
+            flex-direction: column;
+
+        }
+        .HMT-list-item{
+            margin-top:40px !important;
+            margin-left:auto !important;
+            margin-right:auto !important;
         }
         .lists-view{
             height:auto!important;
@@ -66,9 +78,10 @@
         height:320px;
     }
     .HMT-link-lists{
-        width:1272px;
+        width:100%;
         margin-top:80px;
         padding:0px 100px 100px 100px;
+
     }
     .HMT-list-item{
         margin:0px 15px;

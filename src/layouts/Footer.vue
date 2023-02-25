@@ -73,41 +73,6 @@
             <div class="f-16 ftb f-dark-blue mt40">Telegram</div>
             <div class="brb mt40"></div>
         </div>
-        <div class="nations-lists1 f-col">
-            <div class="nation-list-item f-row">
-                <div class="w25"><img src="@/assets/Nation.png"/></div>
-                <div class="w100 f-row f-ccenter"><span class="f16 f-dark-blue ftb f-al">English</span></div>
-            </div>
-            <div class="nation-list-item f-row">
-                <div class="w25"><img src="@/assets/Nation.png"/></div>
-                <div class="w100 f-row f-ccenter"><span class="f16 f-dark-blue ftb f-al">Canada</span></div>
-            </div>
-            <div class="nation-list-item f-row">
-                <div class="w25"><img src="@/assets/Nation.png"/></div>
-                <div class="w100 f-row f-ccenter"><span class="f16 f-dark-blue ftb f-al">Mexico</span></div>
-            </div>
-            <div class="nation-list-item f-row">
-                <div class="w25"><img src="@/assets/Nation.png"/></div>
-                <div class="w100 f-row f-ccenter"><span class="f16 f-dark-blue ftb f-al">Poland</span></div>
-            </div>
-        </div>
-        <div class="f-col pd10 d-in-r w25 ">
-            <div class="f-16 ftb f-dark-blue mt40">Mixin</div>
-            <div class="brb mt40"></div>
-        </div>
-        <div class="nations-lists1 f-col">
-            <div class="nation-list-item f-row">
-                <div class="w25"><img src="@/assets/Nation.png"/></div>
-                <div class="w100 f-row f-ccenter"><span class="f16 f-dark-blue ftb f-al">Chineses</span></div>
-            </div>
-        </div>
-        <div class="contact-bar">
-            <div class="f16 f-dark-blue f-row f-center mt20">© 2021 HPF. HUMAN Protocol® is a registered trademark  </div>
-            <div class="f-row f-center mt20">
-                <div class="w50 f-row f-center"><button class="contact-btn f14 f-dark-blue">Contact@hmt.ai</button></div>
-                <div class="w50 f-row f-center"><button class="contact-btn f14 f-dark-blue">Terms and conditions</button></div>
-            </div>
-        </div>
   </div>
 </template>
 
@@ -153,14 +118,10 @@
             display:none;
         }
         .sec7{
-            display: flex !important;
-            justify-content: center;
-            align-items: center;
+            display: none;
         }
         .sec8{
-            display: flex !important;
-            justify-content: center;
-            align-items: center;
+            display: none;
         }
     }
     .contact-bar{

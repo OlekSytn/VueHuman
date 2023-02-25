@@ -8,15 +8,15 @@
         <div class="lists-view ma">
             <div class="HMT-link-lists f-center">
                 <div class="HMT-list-item f-col f-center">
-                    <img src="@/assets/Group1.png"/>
+                    <img src="../img/Group1.png"/>
                     <div class="f18 f-dark-blue ftb mt40">Complete Jobs</div>
                 </div>
                 <div class="HMT-list-item f-col f-center">
-                    <img src="@/assets/Group2.png"/>
+                    <img src="../img/Group2.png"/>
                     <div class="f18 f-dark-blue ftb mt40">Grants Program</div>
                 </div>
                 <div class="HMT-list-item f-col f-center">
-                    <img src="@/assets/Group3.png"/>
+                    <img src="../img/Group3.png"/>
                     <div class="f18 f-dark-blue ftb mt40">Ambassador Program</div>
                 </div>
             </div>
@@ -36,20 +36,32 @@
         background: #F2F2FA;
         border-radius: 40px;
     }
-    @media only screen and (max-width:1175px){
+    @media (max-width:1175px){
         .layout7-content{
             width: 100%!important;
             border-radius:0px;
             height:auto!important;
             overflow: hidden;
         }
-        .lists-view{
-            width:100vw!important;
+        .HMT-link-lists{
+            width:100% !important;
             height:auto!important;
-            overflow-x: scroll;
+            margin-top:80px!important;
+            padding:0px!important;
+            display: flex;
+            flex-direction: column;
+        }
+        .lists-view{
+            width:100%!important;
+            height:auto!important;
         }
         .layout7-caption {
             font-size:50px;
+        }
+        .HMT-list-item{
+            margin-top:60px!important;
+            margin-left:auto!important;
+            margin-right:auto!important;
         }
     }
     .lists-view{
